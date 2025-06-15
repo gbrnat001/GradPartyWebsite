@@ -21,12 +21,12 @@ header {
     margin-bottom: 0rem;
 }
 header h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 0.5rem;
 }
 
-header p { 
-    font-size: 1.2rem; 
+header h2{ 
+    font-size: 2rem; 
     margin-bottom: 0;
 }
 nav { 
@@ -99,10 +99,37 @@ section {
     margin: 0 0.5rem; 
 }
 
-footer { 
+.btn { 
+    display: inline-block; 
+    background: #4a90e2;
+    color: white; 
+    padding: 0.75rem 1.5rem; 
+    border-radius: 4px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: background 0.3s;
+}
+.btn:hover { 
+    background: #3b78c2; 
+}
+
+footer a.btn { 
+    display: block; 
+    width: fit-content; 
+    margin: 0 auto; }
+
+footer p{ 
     text-align: center; 
     padding: 1rem; 
     background: #b7a57a; 
     color: white; 
     margin-top: 2rem; 
+}
+
+#details {
+    border-top: 6px solid #4a90e2;
+}
+
+#WhenWhere {
+    border-top : 6px solid red;
 }
