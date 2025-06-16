@@ -37,6 +37,10 @@ nav {
     z-index: 100;
 }
 
+nav li {
+    margin: 0;
+}
+
 nav ul{
     display:flex;
     justify-content: center;
@@ -70,6 +74,7 @@ section {
 }
 
 .card { 
+    border-top: 6px solid #4a90e2;
     background: white; 
     border-radius: 8px; 
     padding: 1.5rem; 
@@ -79,7 +84,7 @@ section {
 
 .card-container { 
     background: white; 
-    border-top: 4px solid #4a90e2;
+    border-top: 6px solid #4a90e2;
     border-radius: 8px; 
     padding: 1.5rem; 
     box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
@@ -113,6 +118,12 @@ section {
     background: #3b78c2; 
 }
 
+
+#WhenWhere h2 {
+    margin-bottom: 1rem;
+}
+
+
 footer a.btn { 
     display: block; 
     width: fit-content; 
@@ -126,10 +137,5 @@ footer p{
     margin-top: 2rem; 
 }
 
-#details {
-    border-top: 6px solid #4a90e2;
-}
 
-#WhenWhere {
-    border-top : 6px solid red;
-}
+
